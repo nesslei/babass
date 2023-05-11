@@ -1,13 +1,8 @@
 <script setup>
-import { RouterView } from 'vue-router'
-import ChartPie from './components/ChartPie.vue'
-
 </script>
 
 <template>
-  <h2> i POOPED my pants</h2>
-  <RouterView></RouterView>
-  <ChartPie></ChartPie>
+  <div></div>
 </template>
 
 <style scoped>

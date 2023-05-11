@@ -59,7 +59,6 @@
     }, 
     methods: {
       async fetchData() {
-        if (this.correct === true) {
           try {
             const response = await fetch('https://data.cityofnewyork.us/resource/fcau-jc6k.json')
             const data = await response.json()
@@ -77,5 +76,4 @@
         }
       }
     }
-  }
 </script>
